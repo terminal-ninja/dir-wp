@@ -1,0 +1,189 @@
+.bx-wrapper .bx-controls-direction a
+  z-index: 0 !important
+
+.bx-wrapper
+  margin: 0 auto 0
+  .bx-viewport
+    border: 0px !important
+    left: 0px
+    @include vendor-prefix('box-shadow','0 0 0')
+    // margin-top: 80px
+  .bx-pager
+    bottom: 0px
+    a.active
+      background: $prime-color1 !important
+.single
+  @media screen and (max-width: 1600px)
+    .bxslider
+      li
+        height: 450px 
+    .bx-wrapper .bx-viewport
+      height: 450px !important
+      .overlay
+        .inner
+          margin-top: 0
+.page
+  .bx-wrapper .bx-viewport
+    height: 715px !important
+    @media screen and (max-width: 1600px)
+      height: 500px !important
+    @media screen and (max-width: 860px)
+      height: 550px !important
+    @media screen and (max-width: 480px)
+      height: 480px !important
+.bxslider
+  visibility: hidden
+  img
+    width: 100%
+  li
+    margin-left: 0
+    height: 715px
+.hero-slider
+  width: 100%
+  padding: 0px
+  overflow: hidden
+  .hero-carousel
+    ul
+      -webkit-margin-after: 0em !important
+      li
+        margin-left: 0
+        font-size: inherit
+        position: relative
+        background-repeat: no-repeat !important
+        background-size: cover
+    .overlay
+      width: 860px
+      margin: 0 auto
+      margin-top: 100px
+      @media screen and (max-width: 1600px)
+        margin-top: 50px
+      @media screen and (max-width: 860px)
+        width: auto
+      figure
+        width: 750px
+        margin: 0 auto
+        @media screen and (max-width: 1600px)
+          width: 500px
+        @media screen and (max-width: 860px)
+          width: 320px
+        @media screen and (max-width: 540px)
+          width: 220px
+        @media screen and (max-width: 380px)
+          width: 180px
+      .inner
+        margin-top: 50px
+        @media screen and (max-width: 1024px)
+          width: 768px
+          margin: 0 auto
+        @media screen and (max-width: 860px)
+          width: 420px
+        @media screen and (max-width: 540px)
+          width: 320px
+        @media screen and (max-width: 380px)
+          width: 280px
+        h2
+          float: left
+          width: 20%
+          font-style: italic
+          color: $prime-color1
+          font-weight: normal
+          margin-top: 16px
+          @media screen and (max-width: 1024px)
+            width: 100%
+            text-align: center
+            margin-bottom: 0
+        h3
+          float: left
+          width: 80%
+          color: $black
+          line-height: 40px
+          @media screen and (max-width: 1600px)
+            line-height: 32px
+            
+          @media screen and (max-width: 1024px)
+            width: 100%
+            text-align: center
+            margin-top: 0
+          @media screen and (max-width: 540px)
+            font-size: 16px
+            line-height: 2
+// BREY EDITS
+section.tips
+  .bx-viewport
+    width: 1000px !important
+    padding: 0 20px
+    margin: 0 auto
+    @media screen and (max-width: 1600px)
+      width: 800px !important
+    @media screen and (max-width: 1200px)
+      width: 600px !important
+    .bxslider-tips
+      h4
+        float: left
+        width: 20%
+        font-size: 40px
+        color: $prime-color1
+        font-style: italic
+        @media screen and (max-width: 1024px)
+          width: 100%
+          text-align: center
+        &:before
+          content: ' '
+          background-image: url('img/icons/quotes.svg')
+          height: 37px
+          width: 54px 
+      p
+        float: left
+        width: 80%
+        font-size: 30px
+        font-style: italic
+        line-height: 40px
+        color: $prime-color2
+        font-weight: 100
+        @media screen and (max-width: 1024px)
+          width: 100%
+          text-align: center
+        @media screen and (max-width: 540px)
+          font-size: 16px
+          line-height: 2
+          //BREYTODO: Sort this shit
+      li
+        @media screen and (max-width: 1350px)
+          width: 680px !important
+        @media screen and (max-width: 1024px)
+          width: 600px !important
+        @media screen and (max-width: 768px)
+          width: 480px !important
+        @media screen and (max-width: 660px)
+          width: 460px !important
+        @media screen and (max-width: 620px)
+          width: 440px !important
+        @media screen and (max-width: 580px)
+          width: 420px !important
+        @media screen and (max-width: 540px)
+          width: 355px !important
+        @media screen and (max-width: 500px)
+          width: 300px !important
+
+.hero
+  float: none
+  width: 100%
+  padding: 0
+  img
+    width: 100%
+
+// .clients
+//   .bx-wrapper
+//     @media screen and (max-width: 480px)
+//       .clients-bxslider li
+//         margin-right: 0px !important
+//       .bx-prev
+//         left: 0
+//       .bx-next
+//         right: 0
+
+.testimonials
+  .bx-wrapper
+    // width: 100% !important
+    // li
+    //   width: 33% !important

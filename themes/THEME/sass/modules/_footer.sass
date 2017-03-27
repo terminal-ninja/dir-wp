@@ -1,0 +1,128 @@
+footer
+  background: $prime-color1
+  +clearfix
+  .top
+    background: transparentize($prime-color1, 0.1)
+    color: white
+    h1
+      color: white
+    .inner
+      ._form_1
+        form
+          margin: 65px 0 !important
+          padding: 0 !important
+          width: auto !important
+        ._form._form_1._inline-form._dark
+          background: transparent !important
+        ._form_element, ._button-wrapper
+          @media screen and (min-width: 768px)
+            width: 33% !important
+            float: left !important
+            input
+              padding: 16px !important
+        ._form_element
+          padding-right: 10px
+          ._field-wrapper input[type=text]
+            color: $white !important
+        #_form_1_submit
+          background: $white !important
+          color: $black !important
+          padding: 13px !important
+          width: 100%
+        ._form-label
+          display: none !important
+      h1
+        margin: 0
+      h4
+        color: $whitest
+      .caldera-grid .form-group
+        margin-bottom: 0 !important
+      .caldera-grid
+        padding: 30px 0
+        @media screen and (max-width: 1600px)
+          padding: 60px 0
+      input
+        &[type=email], &[type=text]
+          border: 1px solid $whitest !important
+          color: $whitest !important
+          padding: 36px
+          background: none !important
+          @include vendor-prefix('border-radius','8px !important')
+          width: 65%
+          float: left
+          font-size: 35px
+          @media screen and (max-width: 1600px)
+            font-size: 16px
+            padding: 23px
+          &::-webkit-input-placeholder
+            color: $whitest
+            // text-transform: uppercase
+          &:-moz-placeholder
+            color: $whitest
+            // text-transform: uppercase
+          &::-moz-placeholder
+            color: $whitest 
+            // text-transform: uppercase
+          &:-ms-input-placeholder
+            color: $whitest          
+            // text-transform: uppercase     
+        &[type=submit]
+          margin-top: 0px
+          padding: 12px 30px
+          width: 32%
+          float: right
+          font-size: 35px
+          font-weight: normal
+          color: $prime-color2
+          @media screen and (max-width: 1600px)
+            font-size: 16px
+
+  .middle 
+    background-image: url('img/footer-bg.png')
+    a
+      color: $white
+      display: block
+      font-size: 1em
+    h3
+      color: $black
+    section:nth-child(1)
+      p
+        margin-top: 2em
+
+    .social a
+      float: left
+      margin-right: 10px
+  .bottom
+    padding: 0
+    background: transparentize($prime-color1, 0.1)
+    width: 100%
+    color: white
+    h4
+      display: none
+    a, p
+      color: $white
+      display: block
+      font-size: 0.8em
+      margin: 0.8em 0
+    h4
+      color: $white
+    a:hover
+      text-decoration: underline
+  .background
+    background: $prime-color2
+    a, p, h5
+      color: white
+    .copyright
+      width: 100%
+    .fotter-item
+      float: right
+      padding-top: 13px
+//RESPONSIVE
+// footer
+//   @media screen and (max-width: 1024px)
+//     .bottom
+//       h4
+//         display: block
+//     .top
+//       h4
+//         display: none
